@@ -1,0 +1,95 @@
+
+ingin mengubah tulisan maka ubah pada hero section
+
+hero section
+- <section class="hero" id="home">
+	<main class="content">	
+	<h1>
+	<p>
+	<a> ref# class=cta(click to action)
+
+-css
+hero
+	min-height
+	display
+	align items (untuk vertikal) Justify items (horizontal)
+	background image : url
+	background repeat
+	background size
+	background position
+	position 
+
+hero :: after
+	content
+	display
+	position
+	width 100
+	height
+	background =linear gradient
+
+1:03:22
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(1, 1, 3, 1) 8%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
+.hero .content {
+  padding: 1.4rem 7%;
+  max-width: 70rem;
+}
+
+.hero .content h1 {
+  font-size: 3em;
+  color: #010101;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+}
+
+.hero .content h1 span {
+  color: var(--sec);
+}
+
+.hero .content p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  mix-blend-mode: difference;
+}
+
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  color: #201c1c;
+  background-color: var(--sec);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+1:07:57
+	
+	
