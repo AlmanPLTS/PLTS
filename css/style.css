@@ -150,7 +150,7 @@ body {
 
 .hero .content {
   padding: 1.4rem 7%;
-  width: 70rem;
+  width: 100%;
   text-align: justify;
   position: fixed;
   top: 150px;
@@ -561,6 +561,7 @@ footer .credit a {
   text-align: justify;
   font-weight: 500;
   padding: 0.2rem;
+  margin-left: 0.8rem;
 }
 
 .modal .modal-container .product-price {
@@ -665,6 +666,10 @@ footer .credit a {
     right: 2rem;
   }
 
+  .hero .content {
+    flex-wrap: flex;
+  }
+
   .about .row {
     flex-wrap: wrap;
   }
@@ -704,6 +709,14 @@ footer .credit a {
 
   .experience .row1 {
     flex-wrap: wrap;
+  }
+
+  .test .row {
+    flex-wrap: wrap;
+  }
+
+  .modal-container {
+    height: fit-content;
   }
 }
 
